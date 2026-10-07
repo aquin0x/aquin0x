@@ -13,7 +13,7 @@ from PIL import Image, ImageOps
 from _theme import ACCENT, AMBER, FG, MUTED, STATIC, window, write
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-W, H = 370, 420  # same height as info-card.svg so the two sit flush side by side
+W, H = 370, 460  # same height as info-card.svg so the two sit flush side by side
 COLS = 60
 RAMP = " .`:-=+*cs#%@"  # bright (sparse) -> dark (dense); leading space clears the background
 CHAR_W, LINE_H = 0.6, 1.18  # monospace advance and line height, in em
